@@ -1,0 +1,64 @@
+{
+  "version": "1.1.1",
+  "description": "Blazingly fast MCP server for code intelligence",
+  "homepage": "https://github.com/postrv/narsil-mcp",
+  "license": "MIT OR Apache-2.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/postrv/narsil-mcp/releases/download/v1.1.1/narsil-mcp-v1.1.1-x86_64-pc-windows-msvc.zip",
+      "hash": "REPLACE_WITH_SHA256_AFTER_RELEASE"
+    }
+  },
+  "bin": "narsil-mcp.exe",
+  "checkver": {
+    "github": "https://github.com/postrv/narsil-mcp"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/postrv/narsil-mcp/releases/download/v$version/narsil-mcp-v$version-x86_64-pc-windows-msvc.zip"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256"
+    }
+  },
+  "notes": [
+    "To use narsil-mcp with AI assistants:",
+    "",
+    "Claude Desktop:",
+    "  Add to %APPDATA%\\Claude\\claude_desktop_config.json:",
+    "  {",
+    "    \"mcpServers\": {",
+    "      \"narsil-mcp\": {",
+    "        \"command\": \"narsil-mcp\",",
+    "        \"args\": [\"--repos\", \"C:\\\\path\\\\to\\\\your\\\\projects\"]",
+    "      }",
+    "    }",
+    "  }",
+    "",
+    "VS Code with Copilot:",
+    "  Create .vscode\\mcp.json in your workspace:",
+    "  {",
+    "    \"servers\": {",
+    "      \"narsil-mcp\": {",
+    "        \"command\": \"narsil-mcp\",",
+    "        \"args\": [\"--repos\", \"${workspaceFolder}\"]",
+    "      }",
+    "    }",
+    "  }",
+    "",
+    "Cursor:",
+    "  Create .cursor\\mcp.json in your project:",
+    "  {",
+    "    \"mcpServers\": {",
+    "      \"narsil-mcp\": {",
+    "        \"command\": \"narsil-mcp\",",
+    "        \"args\": [\"--repos\", \".\"]",
+    "      }",
+    "    }",
+    "  }",
+    "",
+    "Documentation: https://github.com/postrv/narsil-mcp"
+  ]
+}
