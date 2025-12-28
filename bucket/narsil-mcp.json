@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/postrv/narsil-mcp/releases/download/v1.1.2/narsil-mcp-v1.1.2-windows-x86_64.zip",
-      "hash": "5b9e649e31236b727d146e72fd32b4200e3c208762a3ba303d9c3abb0c11b1cd"
+      "hash": "dba4d9ec5d6a59d02788571110c6c52ba4def25c79ebbfc87e4187a35862bf43"
     }
   },
   "bin": "narsil-mcp.exe",
