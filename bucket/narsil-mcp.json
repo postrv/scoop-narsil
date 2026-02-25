@@ -1,12 +1,12 @@
 {
-    "version": "1.6.0",
+    "version": "1.6.1",
     "description": "Blazingly fast MCP server for code intelligence",
     "homepage": "https://github.com/postrv/narsil-mcp",
     "license": "MIT OR Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/postrv/narsil-mcp/releases/download/v1.6.0/narsil-mcp-v1.6.0-windows-x86_64.zip",
-            "hash": "fe9d2ebc040192ba4ef304f06c4b0949053bb56fe58fd15f0a3dd09a09ce0fc5"
+            "url": "https://github.com/postrv/narsil-mcp/releases/download/v1.6.1/narsil-mcp-v1.6.1-windows-x86_64.zip",
+            "hash": "b11ea1bdffb04c304d76995c8ce6ba5a8f022709a6c81f43ae020c13e3b051ae"
         }
     },
     "bin": "narsil-mcp.exe",
